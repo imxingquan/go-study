@@ -1,19 +1,16 @@
-# go-study
-learning go language
+###创建项目 hello 在 first_go/src 目录下  
+    $ mkdir -p /first_go/src/hello  
 
-*GO 安装
-1. 解压安装文件
-	tar -C /urs/local -xzf go1.6.linux-amd64.tar.gz
-2. 设置环境变量 $HOME/.profile
-	export PATH=$PATH:/usr/local/go/bin
-安装到自定义位置 /home/imxingquan/go/go
-	mkdir ~/go
-	tar -C ~/go -xzf go1.6*.tar.gz
-	设置GOROOT变量到安装的自定义目录 
-	编辑.profile文件，增加如下配置
-		export GOROOT=$HOME/go
-		export PATH=$PATH:$GOROOT/bin
-	保存修改后,执行 source .profile 使配置生效。
-
-
-参考：https://golang.org/doc/
+###在hello目录下创建hello.go文件，写入以下代码 
+    package main  
+    import "fmt"  
+    func main() {  
+      fmt.Printf("hello, world\n")  
+    }
+###设置GOPATH环境变量到first_go目录
+    $ export GOPATH=$HOME/go/work/go-study/first_go  
+###编译项目  
+    $ go install hello  
+  生成的程序在first_go/bin目录下
+###运行编译好的程序
+    $ $GOPATH/bin/hello
