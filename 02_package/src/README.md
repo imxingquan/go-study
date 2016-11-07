@@ -16,3 +16,8 @@ src\stringutil\> go build
 
 //create reverse_test.go  
 $GOPATH> go test stringutil  
+
+
+git add .
+git commit -m "02_package"
+git push 
