@@ -18,6 +18,6 @@ src\stringutil\> go build
 $GOPATH> go test stringutil  
 
 
-git add .
-git commit -m "02_package"
-git push 
+git add .  
+git commit -m "02_package"  
+git push  
