@@ -13,4 +13,6 @@
     $ go install hello 或者 go build hello [注意使用项目名称，不是代码的名称] 
   生成的程序在first_go/bin目录下
 ###运行编译好的程序
-    $ $GOPATH/bin/hello
+    $ $GOPATH/bin/hello  
+    
+go-study 是个练习引用自https://github.com/GoesToEleven/GolangTraining
