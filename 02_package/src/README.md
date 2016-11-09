@@ -4,6 +4,8 @@ set GOPATH=E:\lc\go-study\02_package
 mkdir src/main  
 create file main.go  
 
+set GOPATH=x:/02_package  
+
 //build  
 $GOPATH> go install main  
 //or   
