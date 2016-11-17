@@ -15,4 +15,4 @@
 ###运行编译好的程序
     $ $GOPATH/bin/hello  
     
-go-study 是个练习引用自https://github.com/GoesToEleven/GolangTraining
+go-study 是个练习引用自https://github.com/GoesToEleven/GolangTraining 
