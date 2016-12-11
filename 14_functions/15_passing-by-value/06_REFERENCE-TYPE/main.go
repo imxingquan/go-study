@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main(){
-    m := make([]string,2,25)
+    m := make([]string,2,20)
     fmt.Println(m)
     changeMe(m)
     fmt.Println(m)
