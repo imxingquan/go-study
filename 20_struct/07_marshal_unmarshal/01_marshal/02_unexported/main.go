@@ -5,6 +5,7 @@ import(
     "fmt"
 )
 
+//小写的字段无法Marshal
 type person struct{
     first string
     last string
