@@ -38,10 +38,11 @@ func renameIterator(path string, file os.FileInfo,err error)(e error){
     fileName := *pNewFileName + sIdx
 
     //如果新文件名称中包含 % 将百分号替换成递增数字
-    if strings.LastIndex(*pNewFileName,"%") != -1{
-        fileName =  strings.Replace(*pNewFileName,"%",strconv.Itoa(G_IDX),-1)
+    if strings.Contains(*pNewFileName,"@") == true {
+        fileName =  strings.Replace(*pNewFileName,"@",strconv.Itoa(G_IDX),-1)
     }
     
+    fmt.Printf("filename:%s,idx:%d\n",fileName,G_IDX)
 
     fileName = fileName + filepath.Ext(path)
 
