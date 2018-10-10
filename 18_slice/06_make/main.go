@@ -21,7 +21,9 @@ func main(){
     fmt.Println(greeting[2])
 
     greeting = append(greeting,"追加")
-
+    //greeting = append(greeting,"追加")
+    //greeting = append(greeting,"追加")
     fmt.Println(greeting);
+    fmt.Printf("%d,%d",len(greeting),cap(greeting))
 
 }

@@ -14,4 +14,9 @@ func main(){
     fmt.Println(myGreeting)
     delete(myGreeting,"two")
     fmt.Println(myGreeting)
+
+    if val,exists := myGreeting["one"]; exists {
+        fmt.Println("val=",val);
+        fmt.Println("exists=",exists);
+    }
 }

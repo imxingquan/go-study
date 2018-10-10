@@ -9,7 +9,11 @@ func main(){
     greeting[0] = "Good morin个";
     greeting[1] = "的空旷的";
     greeting[2] = "vdk kkk";
-    greeting[3] = "看看vjdjdjjd"; //panic: runtime error: index out of range
+    //greeting[3] = "看看vjdjdjjd"; //panic: runtime error: index out of range
 
     fmt.Println(greeting[2])
+
+    //追加是可以的
+    greeting = append(greeting,"append element");
+    fmt.Println(greeting)
 }

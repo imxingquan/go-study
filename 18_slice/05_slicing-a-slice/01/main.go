@@ -12,4 +12,7 @@ func main(){
     fmt.Println(mySlice[2:4])
     fmt.Println(mySlice[2])
     fmt.Println("myString"[2])
+    fmt.Println("myString"[2:4])
+    fmt.Println("myString"[:4]) //mySt
+    fmt.Println("myString"[4:]) //ring
 }

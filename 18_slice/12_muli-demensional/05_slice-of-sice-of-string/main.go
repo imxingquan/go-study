@@ -25,5 +25,6 @@ func main(){
 	// store the record
 	records = append(records, student2)
 	// print
-	fmt.Println(records)
+    fmt.Println(records)
+    fmt.Println(records[0])
 }

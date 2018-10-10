@@ -26,4 +26,5 @@ func main(){
     }
 
     fmt.Println(myGreeting)
+    fmt.Println(myGreeting[2])
 }
