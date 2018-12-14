@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+//并行计算func 但是没有输出
 func main(){
     go foo()
     go bar()

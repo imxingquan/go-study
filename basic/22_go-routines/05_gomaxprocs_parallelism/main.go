@@ -8,8 +8,9 @@ import (
 )
 
 var wg sync.WaitGroup
-
+//go 自定调用初始化
 func init(){
+    fmt.Println("go init()")
     runtime.GOMAXPROCS(runtime.NumCPU())
 }
 
