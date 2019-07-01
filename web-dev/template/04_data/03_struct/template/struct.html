@@ -1,0 +1,28 @@
+
+<div>
+    <div>解析struct示例:</div>
+
+
+    <div>
+        {{.}}
+    </div>
+
+    <div>
+        <table border="1">
+            <tr>
+                <td>ISBN</td><td>{{.Isbn}}</td>
+            </tr>
+            <tr>
+                <td>name</td><td>{{.Name}}</td>
+            </tr>
+            <tr>
+                <td>Price</td><td>{{.Price}}</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- 临时变量-->
+    {{$name := .Name}}
+    书名:{{$name}}
+    <br/>
+</div>

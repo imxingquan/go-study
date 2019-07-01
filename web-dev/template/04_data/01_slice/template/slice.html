@@ -1,0 +1,17 @@
+
+<div>
+    <div>解析slice示例:</div>
+
+
+    <div>
+    {{range .}}
+        <li>{{.}}</li>
+    {{end}}
+    </div>
+    <br/>
+    <div>
+        {{range $idx,$elm := .}}
+            <li>{{$idx}}-{{$elm}}</li>
+        {{end}}
+    </div>    
+</div>

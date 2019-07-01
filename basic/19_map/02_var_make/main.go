@@ -10,4 +10,5 @@ func main(){
     myGreeting["Jeeny"] = "Bonjour"
 
     fmt.Println(myGreeting)
+
 }

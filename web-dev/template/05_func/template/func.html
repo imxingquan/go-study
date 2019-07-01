@@ -1,0 +1,11 @@
+
+<div>
+    <div>自定义函数 示例:</div>
+
+    {{ template "header.html" . }}
+    <div>
+     {{. | upper}}
+    </div>
+    {{ template "footer.html" . }}
+   
+</div>

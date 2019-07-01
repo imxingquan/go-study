@@ -1,4 +1,4 @@
-set GOPATH=D:\usr\home\Go\net_cmd\server
+set GOPATH=D:\home\golang\basic\example\client_server\server\
 go install cmdserver
 
 pause

@@ -1,0 +1,11 @@
+{
+    "port":"8081",
+    "backupFile":"backup.sql",
+    "bufferSize":4096,
+    "mySql":{
+        "userName":"root",
+        "password":"root",
+        "port":"3306",
+        "database":"db616"
+    }
+}

@@ -8,6 +8,10 @@ func main(){
     fmt.Println(myGreeting)
     fmt.Println(myGreeting == nil)
 
-    //myGreeting["Tim"] = "Good moring."
+    //output:
+    // map[]
+    // true
 
+    //没有使用make会出错
+    //myGreeting["Tim"] = "Good moring."
 }

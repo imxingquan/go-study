@@ -1,0 +1,17 @@
+
+<div>
+    <div>解析map示例:</div>
+
+
+    <div>
+    {{range .}}
+        <li>{{.}}</li>
+    {{end}}
+    </div>
+    <br/>
+    <div>
+       {{range $key,$value := .}}
+            <li>{{$key}}-{{$value}}</li>
+       {{end}}
+    </div>    
+</div>

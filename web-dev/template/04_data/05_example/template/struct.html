@@ -1,0 +1,24 @@
+
+<div>
+    <div>解析struct示例:</div>
+
+
+    <div>
+        {{.}}
+    </div>
+    <p></p>
+   
+    {{range $cat := .}}
+    <div style="clear:both;">
+         <div>类别:{{$cat.Name}}</div>
+         <div>
+             {{range $product := $cat.Products}}
+            <div style="float:left;margin-left:10px;border:1px solid #cecece">
+                <img src="{{$product.Img}}" style="width:180px;height:220px"/><br>
+                [${{$product.Price}}]{{$product.Name}}
+            </div>
+             {{end}}
+         </div>
+    </div>
+    {{end}}
+</div>
